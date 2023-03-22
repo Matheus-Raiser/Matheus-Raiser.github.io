@@ -7,6 +7,7 @@ body{
 img{
     border-radius: 100%;
     padding: 10px 30px;
+    width: 325px;
 }
 #conteudo{
     margin: 10px auto;
@@ -16,16 +17,36 @@ img{
 #topo{
     display: flex;
     background-color:#f8f4e4 ;
-    padding: 20px;
+    padding: 10px;
     justify-items: center;
     align-items: center;
 }
 
 #descricao{
 border-left: 1px solid #4e3f30;
-padding: 15px 10px;
+padding: 15px 15px;
 }
 
-.links{
+.link-descricao{
+    display: flex;
+}
+.link-descricao a{
+    padding: 5px 5px;
+    background-color: #a5b3aa;
+    border-radius: 5px;
+    color: #4e3f30;
+    display: inline;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a img{
     
+    width: 15%;
+    border-radius: 100%;
+    padding: 0px;
+    margin-right: 10px;
+    background-color: #f8f4e4;
 }
