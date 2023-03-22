@@ -1,0 +1,31 @@
+body{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4e3f30;
+    text-align: center;
+}
+img{
+    border-radius: 100%;
+    padding: 10px 30px;
+}
+#conteudo{
+    margin: 10px auto;
+    width: 900px;
+}
+
+#topo{
+    display: flex;
+    background-color:#f8f4e4 ;
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+#descricao{
+border-left: 1px solid #4e3f30;
+padding: 15px 10px;
+}
+
+.links{
+    
+}
