@@ -9,17 +9,25 @@ img{
     padding: 10px 30px;
     width: 325px;
 }
+a{
+    color: green;
+    text-decoration: none;
+    font-weight: 500;
+}
 #conteudo{
     margin: 10px auto;
     width: 900px;
+    background-color: #fefeeb;
+    padding: 10px;
 }
 
 #topo{
     display: flex;
-    background-color:#f8f4e4 ;
+    background-color:#fefeeb ;
     padding: 10px;
     justify-items: center;
     align-items: center;
+    border-bottom: 1px solid #a5b3aa;
 }
 
 #descricao{
@@ -27,13 +35,20 @@ border-left: 1px solid #4e3f30;
 padding: 15px 15px;
 }
 
+#habilidades{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fefeeb;
+}
+
 .link-descricao{
     display: flex;
 }
 .link-descricao a{
     padding: 5px 5px;
-    background-color: #a5b3aa;
+    background-color: #f8f4e4;
     border-radius: 5px;
+    border: 2px solid #4e3f30;
     color: #4e3f30;
     display: inline;
     margin: 10px;
@@ -42,11 +57,32 @@ padding: 15px 15px;
     justify-content: center;
 }
 
+.box-abilidades{
+    background-color: #f8f4e4;
+    width: 300px;
+    padding: 5px 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+
+    justify-items: center;
+    align-items: self-start;
+    text-align: left;
+}
+
+.box-abilidades h3{
+    text-align: center;
+    align-self: center;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
 a img{
     
     width: 15%;
     border-radius: 100%;
     padding: 0px;
     margin-right: 10px;
-    background-color: #f8f4e4;
+    background-color: #fefeeb;
 }
