@@ -4,7 +4,7 @@ body{
     color: #4e3f30;
     text-align: center;
 }
-img{
+.img-perfil{
     border-radius: 100%;
     margin: 10px 40px;
     width: 325px;
